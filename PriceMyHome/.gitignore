@@ -1,0 +1,124 @@
+#############################################
+# 🐍 Python
+#############################################
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+#############################################
+# 🧪 Ambientes virtuais
+#############################################
+
+venv/
+env/
+.env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+#############################################
+# 📓 Jupyter Notebook
+#############################################
+
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Evita salvar outputs pesados (opcional)
+*-checkpoint.ipynb
+
+#############################################
+# 🧠 Machine Learning / Data Science
+#############################################
+
+# Modelos treinados (pesados)
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.keras
+*.pt
+*.pth
+
+# Datasets locais grandes
+*.csv
+*.parquet
+*.feather
+*.hdf5
+
+# Logs de treino
+logs/
+*.log
+
+#############################################
+# 📊 Outputs e resultados
+#############################################
+
+outputs/
+results/
+predictions/
+figures/
+plots/
+
+#############################################
+# 🧾 Configurações locais
+#############################################
+
+.env
+*.env
+config.local.json
+
+#############################################
+# 💻 IDEs
+#############################################
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+#############################################
+# 🧹 Sistema operacional
+#############################################
+
+.DS_Store
+Thumbs.db
+
+#############################################
+# ⚙️ ML frameworks / ferramentas
+#############################################
+
+mlruns/            # MLflow
+wandb/             # Weights & Biases
+tensorboard_logs/  # TensorBoard
+
+#############################################
+# 🔥 Cache de bibliotecas
+#############################################
+
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+#############################################
+# 🚫 Arquivos grandes temporários
+#############################################
+
+*.tmp
+*.temp
+*.bak
+
+#############################################
+# 🔐 Chaves e segredos
+#############################################
+
+*.pem
+*.key
+secrets.json
+credentials.json
